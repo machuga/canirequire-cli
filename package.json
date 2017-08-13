@@ -1,0 +1,15 @@
+{
+  "name": "canirequire",
+  "version": "1.0.0",
+  "description": "A CLI implementation of canirequire for Webtask.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Machuga",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
