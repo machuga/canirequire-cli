@@ -2,9 +2,9 @@
   "name": "canirequire",
   "version": "1.0.0",
   "description": "A CLI implementation of canirequire for Webtask.io",
-  "main": "index.js",
+  "bin": { "canirequire" : "./bin/canirequire.js" },
   "scripts": {
-    "start": "node index.js",
+    "start": "node bin/canirequire.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Machuga",

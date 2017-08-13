@@ -44,9 +44,6 @@ const search = term => {
   );
 }
 
-const getModules = (searchTerm) => fetchModules().then(groupModules).then(search(searchTerm))
+const getModules = (searchTerm) => fetchModules().then(groupModules).then(search(searchTerm));
 
-getModules(process.argv[process.argv.length - 1])
-  .then(x => JSON.stringify(x, null, ' '))
-  .then(console.log)
-  .catch(console.error);
+module.exports = getModules;
